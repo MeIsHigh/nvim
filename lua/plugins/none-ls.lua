@@ -9,7 +9,7 @@ return {
 		ns.setup({
 			sources = {
 				ns.builtins.formatting.stylua,
-                ns.builtins.formatting.clangformat,
+                ns.builtins.formatting.clang_format,
                 ns.builtins.formatting.black,
                 ns.builtins.formatting.cmake_format,
 			},
