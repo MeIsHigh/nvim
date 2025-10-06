@@ -47,6 +47,8 @@ return {
 					"--completion-style=detailed",
 					"--function-arg-placeholders",
 					"--fallback-style=llvm",
+                    "--query-driver=/usr/bin/g++",
+                    "--all-scopes-completion",
 				},
 				init_options = {
 					usePlaceholders = true,
